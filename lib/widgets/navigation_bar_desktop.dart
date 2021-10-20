@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:guia_flutter_web_app/constants/app_constants.dart';
 import 'package:guia_flutter_web_app/constants/app_themes.dart';
-import 'package:guia_flutter_web_app/models/menu_item.dart';
+import 'package:guia_flutter_web_app/models/menu_item_model.dart';
 import 'package:guia_flutter_web_app/models/user_model.dart';
 
 import 'navigation_bar_mobile.dart';
@@ -9,7 +9,7 @@ import 'navigation_bar_mobile.dart';
 class NavigationBarDesktop extends StatelessWidget {
 
   final UserModel user;
-  final List<MenuItem> menuItems;
+  final List<MenuItemModel> menuItems;
   final int selectedTabIndex;
   final Function(int) onTap;
 

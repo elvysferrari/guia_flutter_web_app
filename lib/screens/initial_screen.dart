@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:guia_flutter_web_app/constants/controllers.dart';
 import 'package:guia_flutter_web_app/constants/responsive.dart';
-import 'package:guia_flutter_web_app/models/menu_item.dart';
+import 'package:guia_flutter_web_app/models/menu_item_model.dart';
 import 'package:guia_flutter_web_app/widgets/navigation_bar_desktop.dart';
 import 'package:guia_flutter_web_app/widgets/navigation_bar_mobile.dart';
 
@@ -53,12 +53,12 @@ class _InitialScreenState extends State<InitialScreen> {
     Icons.person,
   ];
 
-  final List<MenuItem> _menuItems = [
-    MenuItem(icon: Icons.home_outlined, iconColor: Colors.grey, iconText: "Explorar", textColor:  Colors.grey),
-    MenuItem(icon: Icons.favorite_outline, iconColor: Colors.grey, iconText: "Favoritos", textColor:  Colors.grey),
-    MenuItem(icon: Icons.map_outlined, iconColor: Colors.grey, iconText: "Viagens", textColor:  Colors.grey),
-    MenuItem(icon: Icons.messenger_outline, iconColor: Colors.grey, iconText: "Mensagens", textColor:  Colors.grey),
-    MenuItem(icon: Icons.person_outlined, iconColor: Colors.grey, iconText: "Perfil", textColor:  Colors.grey),
+  final List<MenuItemModel> _menuItems = [
+    MenuItemModel(icon: Icons.home_outlined, iconColor: Colors.grey, iconText: "Explorar", textColor:  Colors.grey),
+    MenuItemModel(icon: Icons.favorite_outline, iconColor: Colors.grey, iconText: "Favoritos", textColor:  Colors.grey),
+    MenuItemModel(icon: Icons.map_outlined, iconColor: Colors.grey, iconText: "Viagens", textColor:  Colors.grey),
+    MenuItemModel(icon: Icons.messenger_outline, iconColor: Colors.grey, iconText: "Mensagens", textColor:  Colors.grey),
+    MenuItemModel(icon: Icons.person_outlined, iconColor: Colors.grey, iconText: "Perfil", textColor:  Colors.grey),
   ];
 
   int _selectedTabIndex = 0;

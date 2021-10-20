@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "type": "GUIA_COMERCIAL",
+    "name": "Bares & Restaurantes",
+    "description": "Os melhores da cidade!",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFixOfTQpB7BOH0VO8Zy7WPKXuvPCcTq284g&usqp=CAU",
+    "bActive": true,
+    "sortOrder": 1
+  },
+  {
+    "id": 2,
+    "type": "GUIA_COMERCIAL",
+    "name": "Saúde & Bem Estar",
+    "description": "Encontre clínicas, hospitais, médicos...",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStlrGnxXC81BideUDN49uIAmFjo7ulat3QDw&usqp=CAU",
+    "bActive": true,
+    "sortOrder": 2
+  },
+  {
+    "id": 3,
+    "type": "GUIA_COMERCIAL",
+    "name": "Construção & Decoração",
+    "description": "",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcSvMpLOsd3gn3a84cqVzttWzzO_30XPSS2A&usqp=CAU",
+    "bActive": true,
+    "sortOrder": 3
+  },
+  {
+    "id": 4,
+    "type": "GUIA_COMERCIAL",
+    "name": "Esporte & Lazer",
+    "description": "",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfDNHZD3huh9nrkttJyddnsvPZs6_RKFroVcbp28MAdgVXsul7UsBrN9e10bQUbcXjjIE&usqp=CAU",
+    "bActive": true,
+    "sortOrder": 4
+  },
+  {
+    "id": 5,
+    "type": "GUIA_COMERCIAL",
+    "name": "Eventos & Festas",
+    "description": "",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO7eFAae9301_eFKxJ_LxcAHfuAfPYbC_EwA&usqp=CAU",
+    "bActive": true,
+    "sortOrder": 5
+  },
+  {
+    "id": 6,
+    "type": "GUIA_COMERCIAL",
+    "name": "Moda & Estilo",
+    "description": "",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV0pCvMPY6U1HTqtrovG_WCGqwFKavMeg_6Q&usqp=CAU",
+    "bActive": true,
+    "sortOrder": 6
+  },
+  {
+    "id": 7,
+    "type": "GUIA_COMERCIAL",
+    "name": "Veículos",
+    "description": "",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUIzWvaoJcAEMCmrLUkH8famku_dhAvjrteA&usqp=CAU",
+    "bActive": true,
+    "sortOrder": 7
+  },
+  {
+    "id": 8,
+    "type": "GUIA_COMERCIAL",
+    "name": "Informática & Escritório",
+    "description": "",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYnmFX5szv4PlKSXRU4CJe8WODnjHAF4JUUyqodFvpRsIHg-F8-UZ5j9kHAKDHRevQ0iE&usqp=CAU",
+    "bActive": true,
+    "sortOrder": 8
+  },
+  {
+    "id": 9,
+    "type": "GUIA_COMERCIAL",
+    "name": "Educação & Cultura",
+    "description": "",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc9oHfHbVT7dpumNg65Zcjfwy3_dCT46Yo8w&usqp=CAU",
+    "bActive": true,
+    "sortOrder": 9
+  },
+  {
+    "id": 10,
+    "type": "GUIA_COMERCIAL",
+    "name": "Serviços & Profissionais",
+    "description": "",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdrTSNG0UZvHR5eFAETNgVK_6u6oSowL8fNQ&usqp=CAU",
+    "bActive": true,
+    "sortOrder": 10
+  },
+  {
+    "id": 11,
+    "type": "GUIA_COMERCIAL",
+    "name": "Móveis & Eletro",
+    "description": "",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYReP59z-Dogry1SIOj9zH1WMNfaetHXYhBQ&usqp=CAU",
+    "bActive": true,
+    "sortOrder": 11
+  },
+  {
+    "id": 12,
+    "type": "GUIA_COMERCIAL",
+    "name": "Fretes & Transportes",
+    "description": "",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gntFnTHcsJbNJNuFVn6TmiUfkv65bdyh8g&usqp=CAU",
+    "bActive": true,
+    "sortOrder": 12
+  },
+  {
+    "id": 13,
+    "type": "GUIA_COMERCIAL",
+    "name": "Mídia & Publicidade",
+    "description": "",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsRkG8sI1QNuSJ2X0GQxPANUJxXBAVZhu9dQ&usqp=CAU",
+    "bActive": true,
+    "sortOrder": 13
+  },
+  {
+    "id": 14,
+    "type": "GUIA_COMERCIAL",
+    "name": "Indústrias & Ferragens",
+    "description": "",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsRkG8sI1QNuSJ2X0GQxPANUJxXBAVZhu9dQ&usqp=CAU",
+    "bActive": true,
+    "sortOrder": 14
+  },
+  {
+    "id": 15,
+    "type": "GUIA_COMERCIAL",
+    "name": "Variedades",
+    "description": "",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOiBMlZSTcr8L-6Xt-5bpVa4OfwuTjuStZSw&usqp=CAU",
+    "bActive": true,
+    "sortOrder": 15
+  },
+  {
+    "id": 16,
+    "type": "GUIA_COMERCIAL",
+    "name": "Turismo & Hotéis",
+    "description": "",
+    "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtDtq6ucAz22i0muMxJZ6TnwkR3wtISh2hKxg6ZdR4fqwka6QvC9GAP8fWAx2RJfcsdwY&usqp=CAU",
+    "bActive": true,
+    "sortOrder": 16
+  }
+]

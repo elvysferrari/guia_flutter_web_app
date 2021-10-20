@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "idCategory": 1,
+    "name": "Restaurantes"
+  },
+  {
+    "id": 2,
+    "idCategory": 1,
+    "name": "Bares"
+  },
+  {
+    "id": 3,
+    "idCategory": 1,
+    "name": "Pizzarias"
+  }
+]

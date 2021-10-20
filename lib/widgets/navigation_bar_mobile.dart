@@ -1,11 +1,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:guia_flutter_web_app/constants/app_themes.dart';
-import 'package:guia_flutter_web_app/models/menu_item.dart';
+import 'package:guia_flutter_web_app/models/menu_item_model.dart';
 
 class NavigationBarMobile extends StatelessWidget {
 
-  final List<MenuItem> menuItems;
+  final List<MenuItemModel> menuItems;
   final int selectedTabIndex;
   final Function(int) onTap;
   final bool bottomIndicator;

@@ -1,10 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get_state_manager/src/rx_flutter/rx_obx_widget.dart';
 import 'package:guia_flutter_web_app/constants/app_themes.dart';
 import 'package:guia_flutter_web_app/constants/controllers.dart';
 import 'package:guia_flutter_web_app/constants/responsive.dart';
 import 'package:guia_flutter_web_app/controllers/app_controller.dart';
+import 'package:guia_flutter_web_app/models/category_model.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -105,17 +107,15 @@ class HomeMobile extends StatelessWidget {
             ),
           )
         ),
-
-        //Lista de Explorar destinos
         SliverToBoxAdapter(
           child: Padding(
             padding: const EdgeInsets.only(left: 16.0),
             child: Container(
               color: Colors.white,
               height: 250.0,
-              child: ListView.builder(
+              child: Obx((){  return ListView.builder(
                 scrollDirection: Axis.horizontal,
-                itemCount: 10,
+                itemCount: categoryController.categories.length,
                 itemBuilder: (context, index) {
                   return SizedBox(
                     width: 200.0,
@@ -128,7 +128,7 @@ class HomeMobile extends StatelessWidget {
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(8.0),
                               child: CachedNetworkImage(
-                                imageUrl: "https://blog.lexos.com.br/wp-content/uploads/2018/07/como-montar-uma-loja-de-roupas-1280x720.jpg",
+                                imageUrl: categoryController.categories[index].urlImage,
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -139,9 +139,9 @@ class HomeMobile extends StatelessWidget {
                               padding: const EdgeInsets.only(top: 6.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
-                                children: const [
-                                  Expanded(child: Text("Lojas", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14),)),
-                                  Expanded(child:Text("5 minutos de carro", style: TextStyle(fontWeight: FontWeight.normal, fontSize: 10),)),
+                                children: [
+                                  Expanded(child: Text(categoryController.categories[index].name, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),)),
+                                  Expanded(child:Text(categoryController.categories[index].description ?? "", style: const TextStyle(fontWeight: FontWeight.normal, fontSize: 10),)),
                                 ],
                               ),
                             ),
@@ -154,7 +154,8 @@ class HomeMobile extends StatelessWidget {
                     ),
                   );
                 },
-              ),
+              );
+            })
             ),
           ),
         ),

@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:guia_flutter_web_app/controllers/category_controller.dart';
 import 'package:guia_flutter_web_app/screens/initial_screen.dart';
 
 import 'controllers/app_controller.dart';
@@ -10,6 +11,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   Get.put(UserController());
   Get.put(AppController());
+  Get.put(CategoryController());
 
   runApp(const MyApp());
 
